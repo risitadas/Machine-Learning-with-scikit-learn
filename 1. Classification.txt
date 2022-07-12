@@ -1,0 +1,73 @@
+CLASSIFICATION
+
+In machine learning, classification is a supervised learning concept 
+which basically categorizes a set of data into classes. 
+
+The most common classification problems are – speech recognition, 
+face detection, handwriting recognition, document classification, etc.
+
+Classification Terminologies In Machine Learning :
+
+* Classifier – 
+	It is an algorithm that is used to map the input data to a specific category
+
+* Classification Model – 
+	The model predicts or draws a conclusion to the input data given for training, 
+	it will predict the class or category for the data
+
+* Feature – 
+	A feature is an individual measurable property of the phenomenon being observed
+
+* Binary  Classification – 
+	It is a type of classification with two outcomes, for eg – either true or false
+
+* Multi-Class Classification – 
+	The classification with more than two classes, in multi-class classification each sample 
+	is assigned to one and only one label or target
+
+* Multi-label Classification – 
+	This is a type of classification where each sample is assigned to a set of labels or targets
+
+* Initialize – 
+	It is to assign the classifier to be used for the
+
+* Train the Classifier – 
+	Each classifier in sci-kit learn uses the fit(X, y) method to fit the model 
+	for training the train X and train label y
+
+* Predict the Target – 
+	For an unlabeled observation X, the predict(X) method returns predicted label y
+
+* Evaluate – 
+	This basically means the evaluation of the model i.e classification report, accuracy score, etc
+
+
+
+Types of Learners in Classification :
+
+a) Lazy Learners
+	Example: K-NN algorithm, Case-based reasoning
+
+b) Eager Learners
+	Example: Decision Trees, Naïve Bayes, ANN
+
+
+
+Types of ML Classification Algorithms :
+
+Mainly two category:
+
+* Linear Models :
+	Logistic Regression
+	Support Vector Machines
+
+* Non-linear Models :
+	K-Nearest Neighbours
+	Kernel SVM
+	Naïve Bayes
+	Decision Tree Classification
+	Random Forest Classification
+
+
+
+

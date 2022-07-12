@@ -1,0 +1,67 @@
+what is machine learning ?
+
+the art and science of :
+* giving computers the ability to learn to make decisions from data
+* without explicitly programmed
+
+examples :
+
+* learning to predict whether an email is spam or not
+* clustering wikipedia entries into different categories
+
+
+
+Unsupervised-Learning :
+
+* uncovering hidden patterns from unlabeled data
+ example :
+	* grouping customers into distinct categories(clustering)
+
+
+ReinforcemenT-Learning :
+
+* software agents interact with an environment
+	a) learning how to optimize their behavior
+	b) given a system of rewards and punishments
+	c) draws inspiration from behavioral psychology
+
+* applications
+	a) economics
+	b) genetics
+	c) game playing
+
+
+Supervised-Learning :
+
+* predictor variables/features and a target variable
+
+* aim : predict the target variable, given the predictor variables
+	a) classification:
+		target variable consists of variables
+	b) regression:
+		target variable is continuous
+
+* automate time-consuming or expensive manual tasks
+	example- doctor's diagnosis
+
+* make predictions about the future
+	example- will a customer click on an ad or not?
+
+* need labeled data
+	a) historical data with labels
+	b) experiments to get labeled data
+	c) crowd-sourcing labeled data
+
+
+supervised-learning-in python
+
+* we will use scikit-learn/sklearn
+	-integrates well with the SciPy stack
+
+* other libraries
+	- TensorFlow
+	- keras
+
+
+
+
