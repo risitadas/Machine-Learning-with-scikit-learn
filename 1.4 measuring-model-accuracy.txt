@@ -1,0 +1,23 @@
+measuring model performance
+
+
+* in classification, accuracy is a commonly used metric
+
+* accuracy = fraction of correct predictions
+
+* which data should be used to compute accuracy?
+
+* how well will the model perform on new data?
+
+* could compute accuracy on data used to fit classifier
+
+* not indicative of ability to generalize
+
+* split data into training and test set
+
+* fit/train the classifier on the training set
+
+* make predictions on test set
+
+
+

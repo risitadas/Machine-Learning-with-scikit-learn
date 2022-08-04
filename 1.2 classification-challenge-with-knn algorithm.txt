@@ -1,0 +1,90 @@
+Classification challenge with K-Nearest Neighbors Algorithm
+
+
+
+* K-Nearest Neighbour is one of the simplest Machine Learning algorithms based 
+on Supervised Learning technique
+
+* K-NN algorithm assumes the similarity between the new case/data and available cases 
+and put the new case into the category that is most similar to the available categories
+
+* K-NN algorithm stores all the available data and classifies a new data point based 
+on the similarity, this means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm
+
+* K-NN algorithm can be used for Regression as well as for Classification 
+but mostly it is used for the Classification problems
+
+* K-NN is a non-parametric algorithm, which means it does not make any assumption on underlying data
+
+* it is also called a lazy learner algorithm because it does not learn from the training set immediately 
+instead it stores the dataset and at the time of classification, it performs an action on the dataset
+
+* KNN algorithm at the training phase just stores the dataset and when it gets new data, 
+then it classifies that data into a category that is much similar to the new data.
+
+
+
+ KNN Algorithm :
+
+1. Load the data
+2. Initialize K to your chosen number of neighbors
+3. For each example in the data
+
+3.1 Calculate the distance between the query example and the current example from the data.
+
+3.2 Add the distance and the index of the example to an ordered collection
+
+4. Sort the ordered collection of distances and indices from smallest to largest (in ascending order) by the distances
+
+5. Pick the first K entries from the sorted collection
+
+6. Get the labels of the selected K entries
+
+7. If regression, return the mean of the K labels
+
+8. If classification, return the mode of the K labels
+
+
+
+chosing the right value of K :
+
+* there is no particular way to determine the best value for "K", 
+so we need to try some values to find the best out of them,
+the most preferred value for K is 5
+
+* a very low value for K such as K=1 or K=2, 
+can be noisy and lead to the effects of outliers in the model
+
+* large values for K are good, but it may find some difficulties
+
+
+
+advantages :
+
+* algorithm is simple and easy to implement
+* no need to build a model, tune several parameters, or make additional assumptions
+* algorithm is versatile, can be used for classification, regression, and search 
+
+
+disadvantages :
+
+* algorithm gets significantly slower as the number of examples and/or 
+predictors/independent variables increase
+
+
+
+Scikit-learn fit and predict :
+
+* all machine learning models implemented as python classes
+	-> they implement the algorithms for learning and predicting
+	-> store the information learned from the data
+
+* training a model on the data = 'fitting' a model to the data
+	-> .fit() method
+
+* to predict the labels of new data 
+	-> .predict() method
+
+
+
+
