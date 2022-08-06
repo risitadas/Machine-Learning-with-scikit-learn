@@ -1,0 +1,16 @@
+REGRESSION
+
+
+
+* a regression is a statistical technique that relates a dependent variable 
+to one or more independent (explanatory) variables
+
+* a regression model is able to show whether changes observed in the dependent variable 
+are associated with changes in one or more of the explanatory variables
+
+* it does this by essentially fitting a best-fit line and seeing how the data is dispersed around this line
+
+* regression helps economists and financial analysts in things ranging from asset valuation to making predictions
+
+* in order for regression results to be properly interpreted, 
+several assumptions about the data and the model itself must hold
