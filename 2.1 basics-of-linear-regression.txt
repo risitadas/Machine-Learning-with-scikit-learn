@@ -1,0 +1,62 @@
+basics of linear regression
+
+
+regression mechanics 
+
+	* y = ax + b,
+		where y = target, x = single feature, a,b = parameters of model
+
+	* how do we choose a and b?
+
+	* defining an error functions for any given line -
+		choosing the line that minimizes the error function
+
+
+
+Ordinary least squares(OLS) :
+	minimize sum of squares of residuals
+
+
+a Linear Regression model’s main aim is to find the best fit linear line and 
+the optimal values of intercept and coefficients such that the error is minimized
+
+error is the difference between the actual value and Predicted value and the goal is to reduce this difference
+
+
+linear Regression is the supervised Machine Learning model in which the model finds the best fit linear line
+ between the independent and dependent variable i.e it finds the linear relationship between the dependent and independent variable
+
+
+two types: 
+
+i) Simple Linear Regression is where only one independent variable is present and 
+the model has to find the linear relationship of it with the dependent variable
+
+equation --> 
+	
+	y = bo + b1x ,
+
+where bo is the intercept, b1 is coefficient or slope, x is the independent variable and y is the dependent variable.
+
+
+
+ii) Multiple Linear Regression there are more than one independent variables for the model to find the relationship
+
+equation -->
+
+	y = bo + b1 x1 + b2 x2 + b3 x3 + ...... + bn xn ,
+
+where bo is the intercept, b1,b2,b3,b4…,bn are coefficients or slopes of the independent variables x1,x2,x3,x4…,xn and y is the dependent variable
+
+
+
+in simple linear regression, 
+we predict scores on one variable from the scores on a second variable,
+the variable we are predicting is called the criterion variable and is referred to as Y, and,
+the variable we are basing our predictions on is called the predictor variable and is referred to as X
+
+when there is only one predictor variable, the prediction method is called simple regression
+
+in simple linear regression, the predictions of Y when plotted as a function of X form a straight line
+
+
