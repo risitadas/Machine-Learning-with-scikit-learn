@@ -1,0 +1,61 @@
+regularized regression 
+
+
+why regularize?
+
+* linear regression minimizes a loss function
+
+* it chooses a coefficient for each feature variable
+
+* large coefficients can lean to overfitting
+
+* penalizing large coefficients : regularization
+
+* regularization works by adding a penalty or complexity term to the complex model
+
+* it is a technique used to reduce the errors by fitting the function appropriately 
+on the given training set and avoid overfitting
+
+
+two types :
+
+1. ridge regression or L2 regularization --> 
+---------------------------------------------------------------	
+* a small amount of bias is introduced so that we can get better long-term predictions
+
+* loss function = OLS loss function +   n
+		     				α * ∑ (ai^2)
+						   i=1
+* alpha : parameter we need to choose
+
+* picking alpha here is similar to that of k in knn
+
+* hyperparameter tuning
+
+* alpha controls model complexity
+	i) alpha = 0, we get back OLS( can lead to overfitting)
+	ii) very high alpha : can lead to underfitting
+------------------------------------------------------------------
+	
+
+2. lasso regression or L1 regularization
+------------------------------------------------------------------
+* technique to reduce the complexity of the model
+
+* known as least absolute and selection operator
+
+* loss function = OLS loss function +   n
+		     				α * ∑ |ai|
+						   i=1
+
+-------------------------------------------------------------------
+
+
+lasso regression for feature selection :
+
+--> can be used to selectr important features of a dataset
+--> shrinks the coefficients of less important features to exactly 0
+
+
+
+

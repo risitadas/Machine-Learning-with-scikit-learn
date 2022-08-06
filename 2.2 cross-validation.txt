@@ -1,0 +1,83 @@
+Cross-validation motivation
+
+
+* model performance is dependent on way the data is split
+* not representative of the model's ability to generalize
+* solution --> cross-validation
+
+	-> 5 folds = 5-fold CV
+	-> 10 folds = 10-fold CV
+	-> k folds = k-fold CV
+
+* more folds = more computationally expensive
+
+
+* cross-validation is a technique in which we train our model using the 
+subset of the data-set and then evaluate using the complementary subset of the data-set
+
+* three steps involved in cross-validation are as follows :
+
+	1. reserve some portion of sample data-set
+	2. using the rest data-set train the model
+	3. test the model using the reserve portion of the data-set
+
+-----------------------------------------------------------------------------------------------------------------------
+sample example :
+
+# importing necessary modules
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import cross_val_score
+
+# creating a linear regression object: reg
+reg = LinearRegression()
+
+# performing 3-fold CV
+cvscores_3 = cross_val_score(reg, X, y, cv=3)
+print(cvscores_3)
+print(np.mean(cvscores_3))
+
+
+# performing 10-fold CV
+cvscores_10 = cross_val_score(reg, X, y, cv=10)
+print(cvscores_10)
+print(np.mean(cvscores_10))
+
+
+
+output :
+
+0.8718712782622108
+[0.83699524 0.87875694 0.89986165]
+
+0.8436128620131201
+[0.73564531 0.7988102  0.82780762 0.86331179 0.74902465 0.94417158
+ 0.83259108 0.78157196 0.95777479 0.94541964]
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+
+comparison btw train/test split and cross-validation -->
+
+
+advantages of train/test split:
+
+1. runs K times faster than Leave One Out cross-validation because K-fold cross-validation repeats the train/test split K-times
+2. simpler to examine the detailed results of the testing process
+
+
+advantages of cross-validation:
+
+1. more accurate estimate of out-of-sample accuracy
+2. more “efficient” use of data as every observation is used for both training and testing
+
+
+
+
+
+
+
+
+
+
