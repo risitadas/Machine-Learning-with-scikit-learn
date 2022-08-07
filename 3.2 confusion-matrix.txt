@@ -1,0 +1,126 @@
+Confusion Matrix in Machine Learning
+
+
+* confusion matrix is a matrix used to determine the performance of the classification models for a given set of test data
+
+* it can only be determined if the true values for test data are known
+
+* since it shows the errors in the model performance in the form of a matrix, hence also known as an error matrix
+
+* some features of Confusion matrix are given below:
+
+	--> for the 2 prediction classes of classifiers, the matrix is of 2*2 table, for 3 classes, it is 3*3 table, and so on
+	--> the matrix is divided into two dimensions, that are predicted values and actual values along with the total number of predictions
+	--> predicted values are those values, which are predicted by the model, and actual values are the true values for the given observations
+
+it looks like the below table:
+
+
+n = total predictions		actual: no 			actual: yes
+
+predicted: no		    true negative            false positive
+
+predicted: yes              false negative            true positive
+
+
+
+1. True Negative: Model has given prediction No, and the real or actual value was also No
+2. True Positive: The model has predicted yes, and the actual value was also true
+3. False Negative: The model has predicted no, but the actual value was Yes, it is also called as Type-II error
+4. False Positive: The model has predicted Yes, but the actual value was No. It is also called a Type-I error
+
+
+* need of confusion matrix in machine learning :
+
+--> evaluates the performance of the classification models, when they make predictions on test data, and tells how good our classification model is
+--> not only tells the error made by the classifiers but also the type of errors such as it is either type-I or type-II error
+--> with the help of the confusion matrix, we can calculate the different parameters for the model, such as accuracy, precision, etc
+
+
+
+some calculations :
+
+
+1. Classification Accuracy: 
+
+one of the important parameters to determine the accuracy of the classification problems,
+it defines how often the model predicts the correct output,
+it can be calculated as the ratio of the number of correct predictions made by the classifier to all number of predictions made by the classifiers,
+
+ formula is given below:
+
+	accuracy = (TP + TN)/(TP + TF + FT + FN)
+
+
+2. Misclassification rate: 
+
+also termed as Error rate, and it defines how often the model gives the wrong predictions,
+the value of error rate can be calculated as the number of incorrect predictions to all number of the predictions made by the classifier
+
+formula is given below:
+
+	error rate = (FP + FN)/(TP + TF + FT + FN)
+
+3. Precision: 
+
+can be defined as the number of correct outputs provided by the model or out of all positive classes that have predicted correctly by the model, 
+how many of them were actually true
+
+the formula:
+
+	precision = TP / ( TP + FP)
+	
+
+4. Recall: 
+
+defined as the out of total positive classes, how our model predicted correctly,
+the recall must be as high as possible
+
+the formula:
+
+	recall = TP / ( TP + FN)
+
+5. F-measure: 
+
+if two models have low precision and high recall or vice versa, it is difficult to compare these models,
+so, for this purpose, we can use F-score, this score helps us to evaluate the recall and precision at the same time,
+the F-score is maximum if the recall is equal to the precision
+
+the formula:
+
+	f-measure = (2 + recall + precision) / (recall + precision)
+
+
+
+other terminologies :
+
+* Null Error rate:
+
+defines how often our model would be incorrect if it always predicted the majority class,
+as per the accuracy paradox, it is said that "the best classifier has a higher error rate than the null error rate"
+
+* ROC Curve: 
+
+the ROC is a graph displaying a classifier's performance for all possible thresholds,
+the graph is plotted between the true positive rate (on the Y-axis) and the false Positive rate (on the x-axis)
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

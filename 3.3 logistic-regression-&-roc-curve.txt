@@ -1,0 +1,20 @@
+logistic regression and the ROC curve
+
+
+* logistic regression output possibilities
+
+* if the probability 'p' is greater than 0.5 :
+	--> the data is labeled '1'
+
+* if the probabilty 'p' is less than 0.5 :
+	--> the data is labeled '0'
+
+
+
+probabilty thresholds
+
+* by default, logistic regression threshold - 0.5
+
+* not specific to logistic regression 
+	--> k-NN classifiers also have thresholds
+
