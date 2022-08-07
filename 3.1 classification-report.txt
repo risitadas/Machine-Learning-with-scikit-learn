@@ -1,0 +1,39 @@
+Classification Report in Machine Learning :
+
+
+
+* a classification report is a performance evaluation metric in machine learning
+
+* is one of the performance evaluation metrics of a classification-based machine learning model
+
+* it displays our model’s precision, recall, F1 score and support
+
+* it provides a better understanding of the overall performance of our trained model
+
+
+
+Metrics	Definition
+
+Precision	precision is defined as the ratio of true positives to the sum of true and false positives
+
+Recall	recall is defined as the ratio of true positives to the sum of true positives and false negatives
+
+F1 Score	 the F1 is the weighted harmonic mean of precision and recall, the closer the value of the F1 score is to 1.0, 
+			the better the expected performance of the model is
+
+Support	support is the number of actual occurrences of the class in the dataset, it doesn’t vary between models, 
+			it just diagnoses the performance evaluation process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
