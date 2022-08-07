@@ -1,0 +1,7 @@
+fine tuning our model :
+
+
+*fine-tuning is a way of applying or utilizing transfer learning
+
+* fine-tuning is a process that takes a model that has already been trained for one given task 
+and then tunes or tweaks the model to make it perform a second similar task
