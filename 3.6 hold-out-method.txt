@@ -1,0 +1,38 @@
+hold-out set for final evaluation :
+
+
+* how well can the model perform on never before seen data
+
+* using all data for cross-validation is not ideal
+
+* split data into training and hold-out set at the beginning
+
+* perform grid search cross-validation on training set
+
+* choose the best hyperparameters and evaluate on hold-out set
+
+* holdout Method is the simplest sort of method to evaluate a classifier
+
+* in this method, the data set (a collection of data items or examples) is separated into two sets, called the Training set and Test set
+
+* a classifier performs function of assigning data items in a given collection to a target category or class
+
+* the classifier should be evaluated to find out, it’s accuracy, error rate, and error estimates,
+it can be done using various methods, one of most primitive methods in evaluation of classifier is ‘Holdout Method’
+
+* in the holdout method, data set is partitioned, such that – maximum data belongs to training set and remaining data belongs to test set
+
+* it is vital to remember two statements with regard to holdout method, these are :
+ 	
+	--> if maximum possible data items are placed in training set for construction of model/classifier, 
+	   	classifier’s error rates and estimates would be very low and accuracy would be high, it is sign of a good classifier/model
+
+	--> if more training data are used to construct a classifier, 
+		it qualifies any data used from test set, to test it (classifier)
+
+	--> if more number of data items are present in test set, such that they are used to test classifier built using training set,
+		we can observe more accurate evaluation of classifier with respect to it’s accuracy, error rate and estimation
+
+	--> if more test data are used to evaluate constructed classifier, it’s error rate, 
+		error estimate and accuracy can be accurately determined
+
