@@ -1,0 +1,34 @@
+hyperparameter tuning
+
+
+* linear regression : choosing parameters
+
+* ridge/lasso regression : choosing alpha
+
+* k-Nearest Neighbors : choosing n_neighbors
+
+* parameters like alpha and k : hyperparameters
+
+* hyperparameters cannot be learned by fitting the model
+
+
+
+choosing the correct hyperparameter :
+
+* try a bunch of different hyperparameter values
+
+* fit all of them separately
+
+* see how they performs each
+
+* choose the best performing one
+
+* it is essential to use cross validation
+	---> grid search cross validation
+
+GridSearchCV:
+
+this parrticular module allows to pass our,
+specific estimator, 
+our grid of parameters, and,
+chosen number of cross validation folds

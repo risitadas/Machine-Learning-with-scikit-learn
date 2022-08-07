@@ -1,0 +1,24 @@
+ROC curve (receiver operating characteristic curve) --->
+
+a graph showing the performance of a classification model at all classification thresholds,
+this curve plots two parameters:
+
+i. True Positive Rate
+ii. False Positive Rate
+
+
+
+area under the ROC curve : AUC
+
+* larger area under the ROC curve = better model
+
+
+* desirable for the following two reasons:
+
+	--> scale-invariant,
+		it measures how well predictions are ranked, rather than their absolute values
+
+	--> classification-threshold-invariant,
+		measures the quality of the model's predictions irrespective of what classification threshold is chosen
+
+but they are not always desirable
