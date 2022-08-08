@@ -1,0 +1,61 @@
+Data Preprocessing :
+
+
+it is a step in the data mining and data analysis process that takes raw data and 
+transforms it into a format that can be understood and analyzed by computers and machine learning       
+
+raw, real-world data in the form of text, images, video, etc., is messy,
+not only may it contain errors and inconsistencies, but it is often incomplete, and doesn’t have a regular, uniform design
+
+machines like to process nice and tidy information – they read data as 1s and 0s,
+so calculating structured data, like whole numbers and percentages is easy,
+however, unstructured data, in the form of text and images must first be cleaned and formatted before analysis
+
+
+Importance : 
+
+
+data preprocessing is required tasks for cleaning the data and making it suitable for a machine learning model which also 
+increases the accuracy and efficiency of a machine learning model
+
+Steps :
+
+1. data quality assessment
+2. data cleaning
+3. data transformation
+4. data reduction
+
+--------------------------------------------------------------------
+
+Pipelines :
+
+
+* a Machine Learning pipeline is a process of automating the workflow of a complete machine learning task
+
+* it can be done by enabling a sequence of data to be transformed and correlated together in a model that can be analyzed to get the output
+
+* a typical pipeline includes raw data input, features, outputs, model parameters, ML models, and Predictions
+
+* moreover, an ML Pipeline contains multiple sequential steps that perform everything ranging from data extraction and 
+pre-processing to model training and deployment in Machine learning in a modular approach
+
+* it means that in the pipeline, each step is designed as an independent module, and all these modules are tied together to get the final result
+
+
+
+Importance :
+
+			   machine learning workflow
+			
+ingestion ---> cleaning ---> preprocessing ---> modeling ---> deployment
+
+
+Benefits :
+
+1. unattended runs
+2. easy debugging
+3. easy tracking and versioning
+4. fast execution
+5. collaboration
+6. reusability
+7. heterogeneous compute

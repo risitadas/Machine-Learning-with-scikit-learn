@@ -1,0 +1,35 @@
+preprocessing data :
+
+
+numerical features :
+
+* features with values that are continuous on a scale, statistical, or integer-related
+
+* numerical values are represented by whole numbers, fractions, or percentages
+
+* numerical features can be house prices, word counts in a document, time it takes to travel somewhere, etc
+
+
+
+categorical features :
+
+* features whose explanations or values are taken from a defined set of possible explanations or values
+
+* categorical values can be colors of a house; types of animals; months of the year; True/False; positive, negative, neutral, etc
+
+* the set of possible categories that the features can fit into is predetermined
+
+* scikit-learn will not accept categorical features by default
+
+* need to encode categorical features numerically
+
+* convert to " dummy variables "
+	--> 0 : observation was NOT that category
+	--> 1 : observation was that category
+
+dealing with categorical features in python :
+
+* scikit-learn : OneHotEncoder()
+
+* pandas : get_dummies()
+

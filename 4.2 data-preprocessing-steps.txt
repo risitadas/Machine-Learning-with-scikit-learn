@@ -1,0 +1,42 @@
+data preprocessing steps : 
+
+1. data quality assessment
+
+* mismatched data types
+* mixed data values
+* data outliers
+* missing data
+
+
+
+2. data cleaning
+
+* missing data 
+	-> ignore tuples
+	-> manually fill in missing data
+
+* noisy data
+	-> binning
+	-> regression
+	-> clustering
+	-> removing URLs, symbols, emojis
+	-> removing HTML tags, boilerplate email text, unnecessary blank texts btw words
+	-> removing dublicate data
+
+
+
+3. data transformation
+
+	-> aggregation
+	-> normalization
+	-> feaature selection
+	-> discreditization
+	-> conecpt hierarchy generation
+
+
+
+4. data reduction
+
+	-> attribute selection
+	-> numerosity reduction
+	-> dimensionality reduction
