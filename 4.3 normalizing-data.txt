@@ -1,0 +1,44 @@
+centering and scaling :
+
+
+* both forms of preprocessing numerical data, that is, 
+	data consisting of numbers, as opposed to categories or strings
+
+* centering a variable is subtracting the mean of the variable from each data point so that the new variable's mean is 0
+
+* scaling a variable is multiplying each data point by a constant in order to alter the range of the data
+
+
+
+why scale our data :
+
+* many models use some form of distance to inform them
+
+* features on larger scales can unduly influence the model
+
+* example --> k-NN uses distance explicitly when making predictions
+
+* by transforming your data you help our model work efficiently
+
+* having all features scaled it speeds up our model,
+    better accuracy and more generalized model
+
+
+
+ways to normalize our data :
+
+* standardization --> subtract the mean and divide by variance
+
+* all features are centered around 0 and have variance 1
+
+* can also subtract the minimum and divide by the range
+
+* minimum zero and maximum one
+
+* can also normalize so the data ranges from -1 to 1
+
+
+
+
+
+
